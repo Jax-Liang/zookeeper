@@ -72,7 +72,7 @@ public class LeaderElectionSupportTest extends ClientBase {
         LeaderElectionSupport electionSupport = createLeaderElectionSupport();
 
         electionSupport.start();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         electionSupport.stop();
     }
 
